@@ -225,5 +225,15 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px){
-  
+  header {
+    position: static;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .auth-image {
+    width: 562px;
+  }
 }
