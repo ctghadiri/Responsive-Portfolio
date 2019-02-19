@@ -217,20 +217,34 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
+/* general */
+/* header */
+nav a {
+  margin: 0;
+}
 }
 
 @media screen and (max-width: 768px){
-
+/* general */
+/* header */
+nav a {
+  margin: 0;
+}
 }
 
 @media screen and (max-width: 640px){
+* {
+  text-align: center;
+}
+
+  /* general */
   header {
     position: static;
   }
 
   h1 {
     text-align: center;
+
   }
 
   .auth-image {
@@ -243,12 +257,21 @@ input[type=submit] {
   }
 
   nav a {
-    padding-left: 0;
+    padding-right: 15px;
+    margin 0;
   }
-
+/* header */
   #logo {
     display: block;
     float: none;
     margin: auto;
+  }
+  .work {
+    /* margin: auto; */
+    float: none;
+  }
+/* contact */
+  li {
+    list-style: none;
   }
 }
