@@ -225,21 +225,37 @@ nav a {
 }
 
 @media screen and (max-width: 768px){
+body {
+  margin: 0;
+}
 /* general */
+#masthead {
+  position: static;
+  margin: 0;
+  padding: 0;
+  }
 /* header */
 nav a {
   margin: 0;
+  padding-right: 15px
 }
+
+/* main */
+#main-container {
+  padding-top: 0px;
+  width: 90%;
+  margin: 0;
 }
 
 @media screen and (max-width: 640px){
-* {
-  text-align: center;
+body {
+  margin: 0;
 }
-
   /* general */
-  header {
+  #masthead {
     position: static;
+    margin: 0;
+    padding: 0;
   }
 
   h1 {
@@ -248,8 +264,14 @@ nav a {
   }
 
   .auth-image {
-    width: 562px;
+    width: 100%;
+    /* max-width: fit-content; */
+    float: none;
+    margin-right: 0px;
+    margin: auto;
   }
+
+/* header */
 
   nav {
     float: none;
@@ -260,18 +282,39 @@ nav a {
     padding-right: 15px;
     margin 0;
   }
-/* header */
+
   #logo {
     display: block;
     float: none;
     margin: auto;
+    width: 100%;
   }
-  .work {
-    /* margin: auto; */
-    float: none;
-  }
+
 /* contact */
   li {
     list-style: none;
+  }
+  ul {
+    padding-inline-start: 0%;
+  }
+
+/* portfolio */
+  .work:nth-child(even) {
+    margin-right: 0px;
+  }
+  .work {
+    margin: 10% 0 0 0;
+    float: none;
+    width: 100%;
+  }
+/* main */
+#main-container {
+  padding-top: 0px;
+  width: 90%;
+  margin: 0;
+  }
+
+  .main-section {
+  margin: 5%;
   }
 }
