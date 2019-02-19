@@ -236,4 +236,19 @@ input[type=submit] {
   .auth-image {
     width: 562px;
   }
+
+  nav {
+    float: none;
+    text-align: center;
+  }
+
+  nav a {
+    padding-left: 0;
+  }
+
+  #logo {
+    display: block;
+    float: none;
+    margin: auto;
+  }
 }
