@@ -4,6 +4,8 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -216,9 +218,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  body {
-    margin: 0;
-  }
 /* main */
 #main-container {
   width: 75%;
@@ -241,9 +240,6 @@ ul {
 }
 
 @media screen and (max-width: 768px){
-body {
-  margin: 0;
-}
 .container {
   max-width: 90%;
 }
@@ -282,9 +278,6 @@ ul {
 }
 
 @media screen and (max-width: 640px){
-body {
-  margin: 0;
-}
   /* general */
   #masthead {
     position: static;
