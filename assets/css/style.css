@@ -219,12 +219,9 @@ input[type=submit] {
   body {
     margin: 0;
   }
-/* general */
 /* main */
 #main-container {
-  /* padding-top: 0px; */
   width: 75%;
-  /* margin: 5% 10% 5% 10%; */
   }
 
 /* header */
@@ -353,5 +350,9 @@ body {
 
   .main-section {
   margin: 5%;
+  }
+  .container {
+    margin: 0;
+    max-width: 100%;
   }
 }
