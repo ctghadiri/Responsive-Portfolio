@@ -216,10 +216,30 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+  body {
+    margin: 0;
+  }
 /* general */
+/* main */
+#main-container {
+  /* padding-top: 0px; */
+  width: 75%;
+  /* margin: 5% 10% 5% 10%; */
+  }
+
 /* header */
 nav a {
   margin: 0;
+  padding-right: 15px
+}
+
+/* contact */
+li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0%;
 }
 }
 
@@ -232,7 +252,6 @@ body {
 }
 /* general */
 #masthead {
-  position: static;
   margin: 0;
   padding: 0;
   }
@@ -251,7 +270,18 @@ nav a {
 }
 .main-section {
   margin: 0;
+  margin-bottom: 5%;
 }
+
+/* contact */
+li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0%;
+}
+
 }
 
 @media screen and (max-width: 640px){
