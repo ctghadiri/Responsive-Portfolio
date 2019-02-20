@@ -121,7 +121,6 @@ h3, h2 {
 
 #main-container {
   padding-top: 130px;
-  min-height: calc(100vh - 70px);
 }
 
 .main-section {
@@ -228,6 +227,9 @@ nav a {
 body {
   margin: 0;
 }
+.container {
+  max-width: 90%;
+}
 /* general */
 #masthead {
   position: static;
@@ -244,7 +246,12 @@ nav a {
 #main-container {
   padding-top: 0px;
   width: 90%;
+  margin: auto;
+  margin: 5%;
+}
+.main-section {
   margin: 0;
+}
 }
 
 @media screen and (max-width: 640px){
@@ -280,7 +287,7 @@ body {
 
   nav a {
     padding-right: 15px;
-    margin 0;
+    margin: 0;
   }
 
   #logo {
