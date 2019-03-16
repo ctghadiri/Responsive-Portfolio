@@ -21,6 +21,12 @@ https://ctghadiri.github.io/Responsive-Portfolio/
 * Establishing a clean and organized html/css makes the entire process of making a website reactive easier
 * Inspecting the element with toggle device becomes indespensible to the process
 
+### Links to Projects in Github
+
+* https://ctghadiri.github.io/giphy-api/
+* https://ctghadiri.github.io/Train-Schedule/
+* https://ctghadiri.github.io/Inspector-Otter/
+
 ### Author
 
 ## Cyrus Ghadiri
