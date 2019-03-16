@@ -154,8 +154,8 @@ h3, h2 {
   height: 205.5px;
   border: 0 none;
   opacity: 0.8;
+  object-fit: cover;
 }
-
 
 .work h3 {
   position: absolute;
@@ -335,6 +335,10 @@ ul {
   .work {
     margin: 10% 0 0 0;
     float: none;
+    width: 100%;
+  }
+
+  .work img {
     width: 100%;
   }
 /* main */
