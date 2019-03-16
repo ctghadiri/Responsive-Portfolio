@@ -150,10 +150,12 @@ h3, h2 {
 }
 
 .work img {
-  width: 100%;
+  width: 274px;
+  height: 205.5px;
   border: 0 none;
   opacity: 0.8;
 }
+
 
 .work h3 {
   position: absolute;
