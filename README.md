@@ -30,6 +30,10 @@ https://ctghadiri.github.io/Responsive-Portfolio/
 ### Author
 
 ## Cyrus Ghadiri
+* LinkedIn: https://www.linkedin.com/in/cyrus-ghadiri-0b418b80
+* E-mail: ctghadiri@gmail.com
+* Github: https://github.com/ctghadiri
+
 
 ### Acknowledgments
 
